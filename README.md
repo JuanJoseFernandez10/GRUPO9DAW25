@@ -7,3 +7,7 @@ Cada uno tendra los archivos que tenga que modificar y se subira todo
 a cada rama que le corresponda con sus carpetas padres 
 Ejemplo: (/web/templates/...) tu tendras el index y subiras (/web/index.php).
 La subida de los ficheros de texto .txt se deben de hacer en su respectiva carpeta para que esten ordenador.
+
+![PHP](https://img.shields.io/badge/PHP-8.2-777BB4?logo=php)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Status](https://img.shields.io/badge/Status-En%20desarrollo-yellow)
