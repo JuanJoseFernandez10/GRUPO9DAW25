@@ -27,3 +27,5 @@ comprobamos con ssh -T git@github.com
 
 El nombre de usuario para la conexión con la base de datos es 445174
 y la contraseña Proyectogrupal2025.
+
+Para salir del servidor en bash escribimos el comando exit
