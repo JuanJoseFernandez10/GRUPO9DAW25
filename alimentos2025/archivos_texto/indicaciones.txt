@@ -1,0 +1,31 @@
+Lo primero es entrar en el hosting (alwaysdata)
+
+Nombre de usuario : alejandrocampossampedro@gmail.com 
+Contraseña : Proyectogrupal2025.
+
+La base de datos creada se verá en la sección de bases de datos. 
+Esta contiene la tabla de alimentos que se nos pedía.
+
+Nos conectamos desde linux en bash con este comando : 
+ssh alejandrocamposhostingalimentosx2025@ssh-alejandrocamposhostingalimentosx2025.alwaysdata.net
+
+Si pide la contraseña es la dicha anteriormente.
+
+En mi caso generé una clave para enlazarlo con 
+github y así subir los cambios del proyecto : 
+ssh-keygen -t ed25519 -C "alejandrocamposhostingalimentosx2025"
+
+Con estos comandos que voy a mostrar nos conectaríamos finalmente con github; 
+
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+
+
+cat ~/.ssh/id_ed25519.pub (esto lo pegamos en las ssh keys de GitHub)
+
+comprobamos con ssh -T git@github.com 
+
+El nombre de usuario para la conexión con la base de datos es 445174
+y la contraseña Proyectogrupal2025.
+
+Para salir del servidor en bash escribimos el comando exit
