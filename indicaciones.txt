@@ -1,6 +1,6 @@
 Lo primero es entrar en el hosting (alwaysdata)
 
-Nombre de usuario : alejandrocampossampedro@gmail.com 
+Nombre de usuario : campos.sampedro.alejandro@iescamas.es
 Contraseña : Proyectogrupal2025.
 
 La base de datos creada se verá en la sección de bases de datos. 
