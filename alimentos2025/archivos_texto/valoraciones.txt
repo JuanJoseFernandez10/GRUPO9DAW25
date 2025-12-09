@@ -1,0 +1,21 @@
+Alejandro Hernández:
+
+El proyecto ha presentado algunas complicaciones al tener partes de trabajo divididas y unir o completar la información con la del compañero anterior. 
+He conseguido configurar las claves de acceso a git desde los diferentes equipos usados que era lo más lioso en mi caso.
+
+Alejandro Campos:
+
+El hosting es bastante fácil de usar e intuitivo, por lo que me ha resultado de los más
+cómodos que he usado hasta ahora. 
+En cuanto a la creación de la base de datos también es de los mássencillos de crear.
+El tema de poner el servidor en bash y clonar el repositorio me ha dado más problemas
+de lo pensado, pero una vez que lo haces es como si estuvieras usando la bash normal.
+Por otra parte, me parece bueno que el hosting te traiga una opción gratuita (aunque
+bastante limitada) ya que en la práctica 2 tuve que rebuscar ya que la mayoría de estos te pedían dinero
+(aunque el coste fuese mínimo).
+
+Juan José Fernández:
+
+La parte del control de version con git no ha sido muy complicada ya que tenía bastante experiencia del año pasado,
+tuve alguna complicacion en el merge ya que elimine un archivo pero gracia al control de versiones pude recuperlarlo 
+facilemente por lo demas ninguna complicación.
