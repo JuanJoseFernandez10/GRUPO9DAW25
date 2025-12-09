@@ -1,0 +1,12 @@
+El grupo 9 ordenado por orden de tareas está formado por Juan José Fernandez encargado de la creación del grupo de trabajo de Github
+Creación de espacio de trabajo o repositorio , añadir a los integrantes del proyecto para poder subir los cambios al repositorio
+y subida de archivos principales del proyecto. 
+
+El segundo integrante Alejandro Campos Sanpedro quien ha llevado a cabo la creación de la base de datos y despliegue en el hosting
+de alwaysdata y recogiendo la información necesaria en un archivo, que finalmente ha dejado en el repositorio de github.
+
+El tercer integrante Alejandro Hernández que modica el archivo config.php con la información del segundo integrante para poder 
+conectar de manera automática a la base de datos que está en el hosting y la explicación en este mismo documento sobre las tareas
+realizadas por cada uno.
+
+El enlace para acceder al hosting: https://alejandrocamposhostingalimentosx2025.alwaysdata.net/
