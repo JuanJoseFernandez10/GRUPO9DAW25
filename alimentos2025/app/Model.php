@@ -24,6 +24,26 @@ class AlimentosModel {
         $query->execute([$id]);
         return $query->fetch(PDO::FETCH_OBJ);
     }
+    public function validarDatos($nombre, $energia, $proteina, $hc, $fibra, $grasa)
+    {
+        if (empty(trim($nombre))) {
+            return false;
+        }
+
+        $numericos = [$energia, $proteina, $hc, $fibra, $grasa];
+        foreach ($numericos as $valor) {
+            $valor = str_replace(',', '.', $valor);
+            if (!is_numeric($valor) || $valor < 0) {
+                return false;
+            }
+        }
+
+        if ($energia > 9000 || $proteina > 300 || $hc > 500 || $fibra > 200 || $grasa > 200) {
+            return false;
+        }
+
+        return true;
+    }
     public function insert($nombre, $energia, $proteina, $hidrato, $fibra, $grasa) {
         $query = $this->db->prepare("
             INSERT INTO alimentos (nombre, energia, proteina, hidratocarbono, fibra, grasatotal)
@@ -54,6 +74,12 @@ class AlimentosModel {
     public function searchByEnergia($energia) {
         $query = $this->db->prepare("SELECT * FROM alimentos WHERE energia = ?");
         $query->execute([$energia]);
+        return $query->fetchAll(PDO::FETCH_OBJ);
+    }
+
+    public function searchByNameAndEnergy($nombre, $energia) {
+        $query = $this->db->prepare("SELECT * FROM alimentos WHERE nombre LIKE ? AND energia = ?");
+        $query->execute(["%" . $nombre . "%", $energia]);
         return $query->fetchAll(PDO::FETCH_OBJ);
     }
 }
